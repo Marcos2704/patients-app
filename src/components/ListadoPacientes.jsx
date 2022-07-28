@@ -4,7 +4,7 @@ import Paciente from '../components/Paciente'
 
 const ListadoPacientes = ({pacientes, setPaciente, eliminarPaciente}) => {
   return(
-    <div className='md:w-1/2 lg:w-3/5 md:h-screen md:overflow-y-scroll'>
+    <div className='md:w-1/2 lg:w-3/5 md:h-screen overflow-y-scroll'>
       {pacientes && pacientes.length ? (
           <>
              <h2 className='font-black text-center text-3xl text-black'>Listado de pacientes</h2>
